@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import buzzer from "../../Assets/Projects/Buzzer.png";
 
+import highlighter from "../../Assets/Projects/Highlighter.png";
 
 import sipSavvy from "../../Assets/Projects/SipSavvy.png";
 
@@ -39,6 +40,17 @@ function Projects() {
               title="Sip Savvy"
               description="Ever had random liquor from a recent party lying around? heres your answer! Sip Savvy is a website that allows you to search for a drink by name or ingredient. It also allows you to save your favorite drinks to your profile."
               ghLink="https://sip-savy.herokuapp.com"
+       
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={highlighter}
+              isBlog={false}
+              title="Highlighter"
+              description="Calender with advanced agenda and scheduling method."
+              ghLink="https://peaceful-island-43281.herokuapp.com/"
        
             />
           </Col>
