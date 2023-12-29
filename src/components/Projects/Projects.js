@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import buzzer from "../../Assets/Projects/Buzzer.png";
-
-import highlighter from "../../Assets/Projects/Highlighter.png";
-
-import sipSavvy from "../../Assets/Projects/SipSavvy.png";
+import buzzer from "../../assets/projects/Buzzer.png";
+import highlighter from "../../assets/projects/Highlighter.png";
+import sipSavvy from "../../assets/projects/SipSavvy.png";
 
 
 
