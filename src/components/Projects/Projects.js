@@ -24,9 +24,9 @@ function Projects() {
             <ProjectCard
               imgPath={buzzer}
               isBlog={false}
-              title="Buzzer"
-              description="Interactive website where people can post share and comment"
-              ghLink="https://fathomless-wave-31109.herokuapp.com/"
+              title="Ultraverse"
+              description="Interactive website where people can post, post share and comment"
+              ghLink="https://github.com/Oscarc691/Ultraverse-Intern"
              
             />
           </Col>
