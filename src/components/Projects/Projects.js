@@ -46,18 +46,23 @@ function Projects() {
             <ProjectCard
               imgPath={highlighter}
               isBlog={false}
+              title="Filmee"
+              description="Movie searching and recommendation engine."
+              ghLink="https://github.com/Oscarc691/Filmee"
+       
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={highlighter}
+              isBlog={false}
               title="Highlighter"
               description="Calender with advanced agenda and scheduling method."
               ghLink="https://peaceful-island-43281.herokuapp.com/"
        
             />
           </Col>
-
-          
-
-          
-
-          
         </Row>
       </Container>
     </Container>
