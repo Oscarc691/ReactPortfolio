@@ -35,9 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={sipSavvy}
               isBlog={false}
-              title="Sip Savvy"
-              description="Ever had random liquor from a recent party lying around? heres your answer! Sip Savvy is a website that allows you to search for a drink by name or ingredient. It also allows you to save your favorite drinks to your profile."
-              ghLink="https://sip-savy.herokuapp.com"
+              title="Food Finder"
+              description="Ingriedient based recipe search engine"
+              ghLink="https://github.com/Oscarc691/FoodFinder"
        
             />
           </Col>
