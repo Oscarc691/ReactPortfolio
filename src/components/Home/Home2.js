@@ -19,21 +19,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and although ive learned alot theres still a ton 
-              i want to learn.
+            As a full-stack engineer, I have expertise in both front-end and back-end development, allowing me to build and maintain complete web applications from start to finish. By leveraging a wide range of technologies and frameworks, I ensure seamless integration, scalability, and a high-quality user experience across all layers of the application.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> HTML, Javascript, CSS, and React. </b>
+                <b className="purple"> HTML, Javascript, CSS,React, Next.js, SQL, Tailwind CSS and Yarn . </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Technologies and Developing </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Fron End Development and Back End Development..
                 </b>
               </i>
               <br />
