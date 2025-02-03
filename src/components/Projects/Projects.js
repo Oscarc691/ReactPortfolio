@@ -29,7 +29,6 @@ function Projects() {
               title="Ultraverse"
               description="Interactive website where people can post, post share and comment"
               ghLink="https://github.com/Oscarc691/Ultraverse-Intern"
-             
             />
           </Col>
 
