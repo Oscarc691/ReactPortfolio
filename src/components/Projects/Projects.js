@@ -7,6 +7,7 @@ import sipSavvy from "../../assets/projects/SipSavvy.png";
 import FoodFinder from "../../assets/projects/FoodFinder.png";
 import Filmee from "../../assets/projects/Filmee.png";
 import Ultraverse from "../../assets/projects/Ultraverse.png";
+import VistoraDash from "../../assets/projects/VistoraDash.png";
 
 
 
@@ -27,17 +28,26 @@ function Projects() {
               imgPath={Ultraverse}
               isBlog={false}
               title="Ultraverse"
-              description="Interactive website where people can post, post share and comment"
+              description="An interactive social platform where users can create posts, share content, and engage in meaningful discussions through comments and interactions."
               ghLink="https://github.com/Oscarc691/Ultraverse-Intern"
             />
           </Col>
-
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={VistoraDash}
+              isBlog={false}
+              title="Vistora"
+              description="An AI-powered web platform designed to streamline and accelerate the insurance claims process by automating verification, reducing errors, and improving transparency for both providers and patients."
+              ghLink="https://github.com/Oscarc691/Vistora"
+       
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={FoodFinder}
               isBlog={false}
               title="Food Finder"
-              description="Ingriedient based recipe search engine"
+              description="A smart recipe search engine that allows users to discover meals based on the ingredients they already have, making cooking easier, more efficient, and waste-free."
               ghLink="https://github.com/Oscarc691/FoodFinder"
        
             />
@@ -48,7 +58,7 @@ function Projects() {
               imgPath={Filmee}
               isBlog={false}
               title="Filmee"
-              description="Movie searching and recommendation engine."
+              description="A movie search and recommendation engine that helps users quickly discover films by title, genre, or keywords, while providing personalized recommendations based on their preferences and viewing history."
               ghLink="https://github.com/Oscarc691/Filmee"
        
             />
@@ -59,7 +69,7 @@ function Projects() {
               imgPath={highlighter}
               isBlog={false}
               title="Highlighter"
-              description="Calender with advanced agenda and scheduling method."
+              description="A smart calendar application featuring advanced agenda management and scheduling tools, designed to help users organize events, set reminders, and optimize their time more efficiently."
               ghLink="https://peaceful-island-43281.herokuapp.com/"
        
             />
@@ -69,11 +79,12 @@ function Projects() {
               imgPath={sipSavvy}
               isBlog={false}
               title="SipSavvy"
-              description="alcohol and cocktail recipe search engine."
-              ghLink=""
+              description="A cocktail and alcohol recipe search engine that lets users explore, discover, and mix drinks based on ingredients, categories, or flavor preferences."
+              ghLink="https://github.com/CarlyGallagher/stone-martini"
        
             />
           </Col>
+           
         </Row>
       </Container>
     </Container>

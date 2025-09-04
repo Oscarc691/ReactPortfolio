@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -8,29 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Oscar Campos </span>
-            originaly from <span className="purple"> San Fernando, California.</span>
-            <br />I am a Developer pursuing more knowledge and skills in the industry!
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+           Hi, I’m Oscar Campos — a developer from San Fernando, California, passionate about building innovative applications and expanding my expertise in software development.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Working out
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Hangin out with friends
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things and learn!"{" "}
+          <p style ={{textAlign: 'Justify'}}>
+              Beyond coding, I enjoy gaming, fitness, and connecting with friends—activities that keep me balanced and creative. My philosophy is simple:
+              “Strive to build, learn, and innovate every day.”
           </p>
-          <footer className="blockquote-footer">Oscar Campos</footer>
+          
         </blockquote>
       </Card.Body>
     </Card>
